@@ -1,4 +1,6 @@
 import Button from "./components/button/Button";
+import Info from "./components/info/Info";
+import "./App.css";
 
 function App() {
   return (
@@ -8,10 +10,8 @@ function App() {
       </header>
 
       <section className="controls">
-        <>
-          <p className="info">0 gentlemen pointing at you</p>
-          {Button}
-        </>
+        <Info />
+        <Button />
       </section>
     </>
   );
