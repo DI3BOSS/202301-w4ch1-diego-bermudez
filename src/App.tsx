@@ -1,5 +1,6 @@
 import Button from "./components/button/Button";
 import Info from "./components/info/Info";
+import "./App.css";
 
 function App() {
   return (
